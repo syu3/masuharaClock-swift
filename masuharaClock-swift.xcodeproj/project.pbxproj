@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BFD9C351AD54EC50087B3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9C341AD54EC50087B3AB /* AppDelegate.swift */; };
+		4BFD9C371AD54EC50087B3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9C361AD54EC50087B3AB /* ViewController.swift */; };
+		4BFD9C3A1AD54EC50087B3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C381AD54EC50087B3AB /* Main.storyboard */; };
+		4BFD9C3C1AD54EC50087B3AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C3B1AD54EC50087B3AB /* Images.xcassets */; };
+		4BFD9C3F1AD54EC50087B3AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C3D1AD54EC50087B3AB /* LaunchScreen.xib */; };
+		4BFD9C4B1AD54EC50087B3AB /* masuharaClock_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD9C4A1AD54EC50087B3AB /* masuharaClock_swiftTests.swift */; };
+		4BFD9C611AD54EEE0087B3AB /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C551AD54EEE0087B3AB /* 0.png */; };
+		4BFD9C621AD54EEE0087B3AB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C561AD54EEE0087B3AB /* 1.png */; };
+		4BFD9C631AD54EEE0087B3AB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C571AD54EEE0087B3AB /* 2.png */; };
+		4BFD9C641AD54EEE0087B3AB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C581AD54EEE0087B3AB /* 3.png */; };
+		4BFD9C651AD54EEE0087B3AB /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C591AD54EEE0087B3AB /* 4.png */; };
+		4BFD9C661AD54EEE0087B3AB /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5A1AD54EEE0087B3AB /* 5.png */; };
+		4BFD9C671AD54EEE0087B3AB /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5B1AD54EEE0087B3AB /* 6.png */; };
+		4BFD9C681AD54EEE0087B3AB /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5C1AD54EEE0087B3AB /* 7.png */; };
+		4BFD9C691AD54EEE0087B3AB /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5D1AD54EEE0087B3AB /* 8.png */; };
+		4BFD9C6A1AD54EEE0087B3AB /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5E1AD54EEE0087B3AB /* 9.png */; };
+		4BFD9C6B1AD54EEE0087B3AB /* colon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C5F1AD54EEE0087B3AB /* colon.png */; };
+		4BFD9C6C1AD54EEE0087B3AB /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFD9C601AD54EEE0087B3AB /* haikei.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BFD9C451AD54EC50087B3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BFD9C271AD54EC50087B3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BFD9C2E1AD54EC50087B3AB;
+			remoteInfo = "masuharaClock-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BFD9C2F1AD54EC50087B3AB /* masuharaClock-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "masuharaClock-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFD9C331AD54EC50087B3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFD9C341AD54EC50087B3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BFD9C361AD54EC50087B3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BFD9C391AD54EC50087B3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BFD9C3B1AD54EC50087B3AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BFD9C3E1AD54EC50087B3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4BFD9C441AD54EC50087B3AB /* masuharaClock-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "masuharaClock-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFD9C491AD54EC50087B3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFD9C4A1AD54EC50087B3AB /* masuharaClock_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masuharaClock_swiftTests.swift; sourceTree = "<group>"; };
+		4BFD9C551AD54EEE0087B3AB /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		4BFD9C561AD54EEE0087B3AB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4BFD9C571AD54EEE0087B3AB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4BFD9C581AD54EEE0087B3AB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4BFD9C591AD54EEE0087B3AB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4BFD9C5A1AD54EEE0087B3AB /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		4BFD9C5B1AD54EEE0087B3AB /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		4BFD9C5C1AD54EEE0087B3AB /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		4BFD9C5D1AD54EEE0087B3AB /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		4BFD9C5E1AD54EEE0087B3AB /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		4BFD9C5F1AD54EEE0087B3AB /* colon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colon.png; sourceTree = "<group>"; };
+		4BFD9C601AD54EEE0087B3AB /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BFD9C2C1AD54EC50087B3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFD9C411AD54EC50087B3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BFD9C261AD54EC50087B3AB = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C541AD54EE00087B3AB /* images */,
+				4BFD9C311AD54EC50087B3AB /* masuharaClock-swift */,
+				4BFD9C471AD54EC50087B3AB /* masuharaClock-swiftTests */,
+				4BFD9C301AD54EC50087B3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BFD9C301AD54EC50087B3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C2F1AD54EC50087B3AB /* masuharaClock-swift.app */,
+				4BFD9C441AD54EC50087B3AB /* masuharaClock-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFD9C311AD54EC50087B3AB /* masuharaClock-swift */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C341AD54EC50087B3AB /* AppDelegate.swift */,
+				4BFD9C361AD54EC50087B3AB /* ViewController.swift */,
+				4BFD9C381AD54EC50087B3AB /* Main.storyboard */,
+				4BFD9C3B1AD54EC50087B3AB /* Images.xcassets */,
+				4BFD9C3D1AD54EC50087B3AB /* LaunchScreen.xib */,
+				4BFD9C321AD54EC50087B3AB /* Supporting Files */,
+			);
+			path = "masuharaClock-swift";
+			sourceTree = "<group>";
+		};
+		4BFD9C321AD54EC50087B3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C331AD54EC50087B3AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BFD9C471AD54EC50087B3AB /* masuharaClock-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C4A1AD54EC50087B3AB /* masuharaClock_swiftTests.swift */,
+				4BFD9C481AD54EC50087B3AB /* Supporting Files */,
+			);
+			path = "masuharaClock-swiftTests";
+			sourceTree = "<group>";
+		};
+		4BFD9C481AD54EC50087B3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C491AD54EC50087B3AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BFD9C541AD54EE00087B3AB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4BFD9C551AD54EEE0087B3AB /* 0.png */,
+				4BFD9C561AD54EEE0087B3AB /* 1.png */,
+				4BFD9C571AD54EEE0087B3AB /* 2.png */,
+				4BFD9C581AD54EEE0087B3AB /* 3.png */,
+				4BFD9C591AD54EEE0087B3AB /* 4.png */,
+				4BFD9C5A1AD54EEE0087B3AB /* 5.png */,
+				4BFD9C5B1AD54EEE0087B3AB /* 6.png */,
+				4BFD9C5C1AD54EEE0087B3AB /* 7.png */,
+				4BFD9C5D1AD54EEE0087B3AB /* 8.png */,
+				4BFD9C5E1AD54EEE0087B3AB /* 9.png */,
+				4BFD9C5F1AD54EEE0087B3AB /* colon.png */,
+				4BFD9C601AD54EEE0087B3AB /* haikei.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BFD9C2E1AD54EC50087B3AB /* masuharaClock-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFD9C4E1AD54EC50087B3AB /* Build configuration list for PBXNativeTarget "masuharaClock-swift" */;
+			buildPhases = (
+				4BFD9C2B1AD54EC50087B3AB /* Sources */,
+				4BFD9C2C1AD54EC50087B3AB /* Frameworks */,
+				4BFD9C2D1AD54EC50087B3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "masuharaClock-swift";
+			productName = "masuharaClock-swift";
+			productReference = 4BFD9C2F1AD54EC50087B3AB /* masuharaClock-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BFD9C431AD54EC50087B3AB /* masuharaClock-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFD9C511AD54EC50087B3AB /* Build configuration list for PBXNativeTarget "masuharaClock-swiftTests" */;
+			buildPhases = (
+				4BFD9C401AD54EC50087B3AB /* Sources */,
+				4BFD9C411AD54EC50087B3AB /* Frameworks */,
+				4BFD9C421AD54EC50087B3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BFD9C461AD54EC50087B3AB /* PBXTargetDependency */,
+			);
+			name = "masuharaClock-swiftTests";
+			productName = "masuharaClock-swiftTests";
+			productReference = 4BFD9C441AD54EC50087B3AB /* masuharaClock-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BFD9C271AD54EC50087B3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					4BFD9C2E1AD54EC50087B3AB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4BFD9C431AD54EC50087B3AB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4BFD9C2E1AD54EC50087B3AB;
+					};
+				};
+			};
+			buildConfigurationList = 4BFD9C2A1AD54EC50087B3AB /* Build configuration list for PBXProject "masuharaClock-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BFD9C261AD54EC50087B3AB;
+			productRefGroup = 4BFD9C301AD54EC50087B3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BFD9C2E1AD54EC50087B3AB /* masuharaClock-swift */,
+				4BFD9C431AD54EC50087B3AB /* masuharaClock-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BFD9C2D1AD54EC50087B3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFD9C691AD54EEE0087B3AB /* 8.png in Resources */,
+				4BFD9C681AD54EEE0087B3AB /* 7.png in Resources */,
+				4BFD9C631AD54EEE0087B3AB /* 2.png in Resources */,
+				4BFD9C611AD54EEE0087B3AB /* 0.png in Resources */,
+				4BFD9C6A1AD54EEE0087B3AB /* 9.png in Resources */,
+				4BFD9C6B1AD54EEE0087B3AB /* colon.png in Resources */,
+				4BFD9C3A1AD54EC50087B3AB /* Main.storyboard in Resources */,
+				4BFD9C6C1AD54EEE0087B3AB /* haikei.png in Resources */,
+				4BFD9C3F1AD54EC50087B3AB /* LaunchScreen.xib in Resources */,
+				4BFD9C671AD54EEE0087B3AB /* 6.png in Resources */,
+				4BFD9C651AD54EEE0087B3AB /* 4.png in Resources */,
+				4BFD9C3C1AD54EC50087B3AB /* Images.xcassets in Resources */,
+				4BFD9C661AD54EEE0087B3AB /* 5.png in Resources */,
+				4BFD9C641AD54EEE0087B3AB /* 3.png in Resources */,
+				4BFD9C621AD54EEE0087B3AB /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFD9C421AD54EC50087B3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BFD9C2B1AD54EC50087B3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFD9C371AD54EC50087B3AB /* ViewController.swift in Sources */,
+				4BFD9C351AD54EC50087B3AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFD9C401AD54EC50087B3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFD9C4B1AD54EC50087B3AB /* masuharaClock_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BFD9C461AD54EC50087B3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BFD9C2E1AD54EC50087B3AB /* masuharaClock-swift */;
+			targetProxy = 4BFD9C451AD54EC50087B3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BFD9C381AD54EC50087B3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFD9C391AD54EC50087B3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BFD9C3D1AD54EC50087B3AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFD9C3E1AD54EC50087B3AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BFD9C4C1AD54EC50087B3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BFD9C4D1AD54EC50087B3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BFD9C4F1AD54EC50087B3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "masuharaClock-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BFD9C501AD54EC50087B3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "masuharaClock-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BFD9C521AD54EC50087B3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "masuharaClock-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masuharaClock-swift.app/masuharaClock-swift";
+			};
+			name = Debug;
+		};
+		4BFD9C531AD54EC50087B3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "masuharaClock-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masuharaClock-swift.app/masuharaClock-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BFD9C2A1AD54EC50087B3AB /* Build configuration list for PBXProject "masuharaClock-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFD9C4C1AD54EC50087B3AB /* Debug */,
+				4BFD9C4D1AD54EC50087B3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFD9C4E1AD54EC50087B3AB /* Build configuration list for PBXNativeTarget "masuharaClock-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFD9C4F1AD54EC50087B3AB /* Debug */,
+				4BFD9C501AD54EC50087B3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BFD9C511AD54EC50087B3AB /* Build configuration list for PBXNativeTarget "masuharaClock-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFD9C521AD54EC50087B3AB /* Debug */,
+				4BFD9C531AD54EC50087B3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BFD9C271AD54EC50087B3AB /* Project object */;
+}

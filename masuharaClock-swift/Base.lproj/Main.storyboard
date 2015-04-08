@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="masuharaClock_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0.png" translatesAutoresizingMaskIntoConstraints="NO" id="qTI-sR-V0o">
+                                <rect key="frame" x="35" y="59" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-qj-odJ">
+                                <rect key="frame" x="162" y="59" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.png" translatesAutoresizingMaskIntoConstraints="NO" id="vlk-RL-RH3">
+                                <rect key="frame" x="298" y="502" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dhv-3s-AYy">
+                                <rect key="frame" x="162" y="502" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="09Q-YC-gHG">
+                                <rect key="frame" x="218" y="299" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="tuf-Xf-CIu">
+                                <rect key="frame" x="97" y="299" width="50" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIi-9m-NdO">
+                                <rect key="frame" x="110" y="59" width="25" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colon.png" translatesAutoresizingMaskIntoConstraints="NO" id="jaB-uD-s6y">
+                                <rect key="frame" x="175" y="299" width="25" height="70"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="colon.png" translatesAutoresizingMaskIntoConstraints="NO" id="tis-7o-OPa">
+                                <rect key="frame" x="243" y="502" width="25" height="70"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.53456668125490081" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="hour1" destination="qTI-sR-V0o" id="hSn-yN-JVV"/>
+                        <outlet property="hour2" destination="pTt-qj-odJ" id="s9I-0Q-sEM"/>
+                        <outlet property="minutu1" destination="tuf-Xf-CIu" id="Yxr-sx-dFI"/>
+                        <outlet property="minutu2" destination="09Q-YC-gHG" id="d1L-o5-LCx"/>
+                        <outlet property="second1" destination="Dhv-3s-AYy" id="G0h-if-zmr"/>
+                        <outlet property="second2" destination="vlk-RL-RH3" id="Yja-9O-hHP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0.png" width="113" height="160"/>
+        <image name="1.png" width="142" height="201"/>
+        <image name="2.png" width="142" height="201"/>
+        <image name="3.png" width="595" height="842"/>
+        <image name="4.png" width="595" height="842"/>
+        <image name="5.png" width="595" height="842"/>
+        <image name="colon.png" width="595" height="842"/>
+    </resources>
+</document>
